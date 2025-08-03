@@ -1,0 +1,9 @@
+# Git 초기화 및 파일 추가
+git init
+git add ltv_impact_simulator_v4.py requirements.txt README.md .gitignore
+git commit -m "Initial commit: LTV Impact Simulator v4.0"
+
+# GitHub 리포지토리 연결 (YOUR_USERNAME과 YOUR_REPO_NAME을 실제 값으로 변경)
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git push -u origin main
